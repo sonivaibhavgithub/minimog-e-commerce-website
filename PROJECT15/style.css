@@ -1,0 +1,1879 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .headerdiv1{
+    background-color: rgb(218, 63, 63);
+    text-align: center;
+    color: white;
+    height: 20px;
+    padding: 11px 0px;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .headerdiv2{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 65px;
+
+ }
+ .headerdiv2 p{
+    margin-left: -162px;
+    font-size: 17px;
+ }
+ .headerdiv2a{
+    display: flex;
+    /* margin-inline: 20px; */
+    column-gap: 30px;
+    margin-left: -17px;
+    font-family: 'Poppins', sans-serif;
+
+
+ }
+ .headerdiv2a h3{
+    font-size: 16px;
+ }
+ .headerdiv2b{
+    display: flex;
+    column-gap: 20px;
+ }
+ .headerdiv2b a{
+    text-decoration: none;
+ }
+
+
+/* navbar start here */
+
+
+
+
+ 
+
+  
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 65px;
+    border-top: 1px solid black;
+}
+.navbar ul{
+    display: flex;
+    margin-left: -25px;
+   
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-inline: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.navdiv{
+    /* margin-top: 54px; */
+}
+.navicons{
+    margin-inline: 10px;
+    font-size: 25px;
+}
+.navimg{
+    
+
+
+    width: 170px;
+    height: 45px;
+    /* margin-top: 44px; */
+    margin-left: -239px;
+}
+
+
+/* navbar ends here */
+
+
+/* section 1 start here */
+
+
+.section1{
+    background-color: rgb(216, 221, 227);
+    /* margin-top: 30px; */
+    height: 450px;
+}
+
+
+.sec1maindiv{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sec1box1{
+    padding: 0px 40px;
+    
+    
+}
+.sec1box1subdiv{
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.sec1box1 h3{
+    font-family: 'Lora', serif;
+
+}
+.sec1box1 h1{
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    margin-top: 20px;
+
+
+}
+.sec1box1 button{
+    width: 124px;
+    padding: 7px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.sec1box2flexdiv{
+    display: flex;
+    column-gap: 10px;
+    transform: translate(-43px, -135px);
+    font-family: 'Lora', serif;
+
+
+
+}
+.sec1box2 img{
+    height: 450px;
+    margin-left: -300px;
+    
+}
+
+
+/* section 2 start here */
+
+
+.section2{
+    margin-top: 150px;
+}
+
+.sec2maindiv{
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 30px;
+    justify-content: center;
+
+}
+.sec2para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 76px;
+    transform: translateY(-75px);
+}
+.sec2box1{
+    height: 390px;
+    width: 289px;
+    background: url(/image/leather\ bag.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    transform: scale(1);
+
+
+    
+
+
+}
+.sec2box1:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+.sec2box1flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+/* .sec2box1flex div{
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* .sec2box1flex span{
+    margin-top: 20px;
+} */
+.sec2box1icon{
+    font-size: 30px;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+.sec2box2{
+    width: 289px;
+    height: 390px;
+    background: url(/image/shoes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+ 
+.sec2box2:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+
+.sec2box2flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+
+.sec2box3{
+    width: 289px;
+    height: 390px;
+    background: url(/image/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.sec2box3:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+
+.sec2box3flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+.sec2box4{
+    width: 289px;
+    height: 390px;
+    background: url(/image/blazers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.sec2box4:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+.sec2box4flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+
+
+
+
+/* section2a maindiv start here */
+
+
+
+
+
+
+
+.sec2amaindiv{
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+
+
+.sec2box1a{
+    height: 390px;
+    width: 289px;
+    background: url(/image/basic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+
+    
+
+
+}
+.sec2box1a:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+.sec2box1aflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+/* .sec2box1flex div{
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* .sec2box1flex span{
+    margin-top: 20px;
+} */
+.sec2box1aicon{
+    font-size: 30px;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+.sec2box2a{
+    width: 289px;
+    height: 390px;
+    background: url(/image/glasses.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.sec2box2a:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+
+.sec2box2aflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+
+.sec2box3a{
+    width: 289px;
+    height: 390px;
+    background: url(/image/leather\ bag.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.sec2box3a:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+.sec2box3aflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+.sec2box4a{
+    width: 289px;
+    height: 390px;
+    background: url(/image/shoes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.sec2box4a:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration:0.5s ;
+    transition-timing-function:ease ;
+}
+.sec2box4aflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 319px;
+}
+
+/* section2a maindiv end here */
+
+
+
+
+
+/* section 3 start here */
+
+.section3{
+    margin-top: 100px;
+}
+
+.sec3para{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.sec3maindiv{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.sec3box1{
+    width: 236px;
+    height: 315px;
+    background: url(/image/woolblend.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.star{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    opacity: 0;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.compare{
+    font-size: 20px;
+      border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 180px;
+    opacity: 0;
+}
+.vision{
+    font-size: 20px;
+      border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 180px;
+    opacity: 0;
+}
+.sec3box1btn{
+    width: 200px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 100px;
+    opacity: 0;
+
+}
+.icondivsec3{
+    margin-left: 173px;
+    margin-top: 40px;
+    opacity: 0;
+
+
+}
+.sec3box1:hover{
+    background: url(/image/woolblendjacket2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3box1:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box1:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box1:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box1:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3box1 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3box1 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3box1icon{
+    font-size: 25px;
+    color: rgb(196, 162, 135);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box1icon2{
+    font-size: 25px;
+    color: rgb(235, 230, 219);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+.sec3box2{
+    width: 236px;
+    height: 315px;
+    background: url(/image/stripe\ cotton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec3box2:hover{
+    background: url(/image/stripe\ cotton\ shirt2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+
+.sec3box2:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box2:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box2:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box2:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3box2 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3box2 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3box2icon{
+    font-size: 25px;
+    color: rgb(177, 197, 212);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box2icon2{
+    font-size: 25px;
+    color: rgb(177, 197, 212);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box2icon3{
+    font-size: 25px;
+    color: rgb(235, 230, 219);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3box3{
+    width: 236px;
+    height: 315px;
+    background: url(/image/slim\ high\ ankle\ jeans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec3box3:hover{
+    background: url(/image/slim\ high\ ankle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3box3:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box3:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box3:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box3:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3box3 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3box3 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3box3icon{
+    font-size: 25px;
+    color: rgb(6, 62, 102);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box3icon2{
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3box3icon3{
+    font-size: 25px;
+    color: rgb(177, 197, 212);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3box4{
+    width: 236px;
+    height: 315px;
+    background: url(/image/oversized\ t-shirt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec3box4:hover{
+    background: url(/image/oversized\ tshirt2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3box4:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box4:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box4:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box4:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3box4 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3box4 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3box4icon{
+    font-size: 25px;
+    color: rgb(255, 209, 220);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box4icon2{
+    font-size: 25px;
+    color: rgb(198, 174, 199);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box4icon3{
+    font-size: 25px;
+    color: rgb(6, 62, 102); 
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3box5{
+    width: 236px;
+    height: 315px;
+    background: url(/image/oversized\ jacket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec3box5:hover{
+    background: url(/image/oversized\ jacket2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3box5:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box5:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box5:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3box5:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3box5 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3box5 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3box5icon{
+    font-size: 25px;
+    color: rgb(251, 207, 205);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box5icon2{
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3box5icon3{
+    font-size: 25px;
+    color: rgb(235, 230, 219);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+.sec3amaindiv{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 180px;
+
+}
+.sec3abox1{
+    width: 236px;
+    height: 315px;
+    background: url(/image/long-sleeve\ maxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec3abox1:hover{
+    background: url(/image/long-sleeve\ maxi2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3abox1:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox1:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox1:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox1:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox1 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3abox1 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3abox1icon{
+    font-size: 25px;
+    color: rgb(235, 230, 219);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox1icon2{
+    font-size: 25px;
+    color: rgb(193, 225, 193);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+.sec3abox2{
+    width: 236px;
+    height: 315px;
+    background: url(/image/linen\ check\ blazer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec3abox2:hover{
+    background: url(/image/linen-check\ blazer2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3abox2:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox2:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox2:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox2:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+
+
+.sec3abox2 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3abox2 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3abox2icon{
+    font-size: 25px;
+    color: rgb(193, 225, 193);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox2icon2{
+    font-size: 25px;
+    color: rgb(127, 127, 127);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox2icon3{
+    font-size: 25px;
+    color: rgb(235, 230, 219);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3abox3{
+    width: 236px;
+    height: 315px;
+    background: url(/image/linen-blend\ shirt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec3abox3:hover{
+    background: url(/image/linen-blend\ shirt2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3abox3:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox3:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox3:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox3:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3abox3 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3abox3 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3abox3icon{
+    font-size: 25px;
+    color: rgb(141, 180, 210);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox3icon2{
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3abox3icon3{
+    font-size: 25px;
+    color: rgb(255, 209, 220);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3abox4{
+    width: 236px;
+    height: 315px;
+    background: url(/image/denim\ jacket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec3abox4:hover{
+    background: url(/image/denim\ jacket2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3abox4:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox4:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox4:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox4:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3abox4 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3abox4 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3abox4icon{
+    font-size: 25px;
+    color: rgb(255, 209, 220);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox4icon2{
+    font-size: 25px;
+    color: rgb(198, 174, 199);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox4icon3{
+    font-size: 25px;
+    color: rgb(6, 62, 102); 
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.sec3abox5{
+    width: 236px;
+    height: 315px;
+    background: url(/image/cotton\ flannel\ shirt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec3abox5:hover{
+    background: url(/image/cotton\ flannel\ shirt2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 236px;
+    height: 315px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+
+}
+.sec3abox5:hover .sec3box1btn{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox5:hover .star{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox5:hover .compare{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+.sec3abox5:hover .vision{
+    opacity: 1;
+    transition: all;
+    transition-duration:1s ;
+    transition-timing-function:ease ;
+    
+}
+
+.sec3abox5 h3{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    margin-top: 39px;
+    
+
+    
+}
+.sec3abox5 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec3abox5icon{
+    font-size: 25px;
+    color: rgb(251, 207, 205);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox5icon2{
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sec3abox5icon3{
+    font-size: 25px;
+    color: rgb(235, 230, 219);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+/* section 3 ends here */
+/* section 4 start here */
+
+.section4{
+    margin-top: 200px;
+    border-top: 1px solid rgb(238, 238, 238);
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+.sec4maindiv{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sec4box1subflex{
+    display: flex;
+    column-gap: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.sec4box1subflex p{
+    margin-top: 10px;
+}
+.sec4icon1{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* section 4 ends here */
+/* footer start here */
+
+.footermaindiv{
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 133px;
+    justify-content: center;
+    /* border-bottom: 1px solid black; */
+
+
+}
+.footerbox1 h3{
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+.footermaindiv ul li{
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+    margin-block: 10px;
+}
+.footermaindiv ul{
+    margin-top: 20px;
+}
+.footerbox4 input{
+    width: 250px;
+    height: 50px;
+    padding-left: 50px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+
+
+
+}
+.footerbox3 p{
+    margin-block: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.footerbox4 p{
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+footer{
+    background-color: rgb(245, 245, 245);
+    padding: 60px;
+}
+ .bx-flip-horizontal{
+    transform: translateX(80px);
+ }
+
+
+
+
+
+ .footermaindiv2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+ }
+ .footericons{
+    font-size: 30px;
+    margin-inline: 10px;
+ }
+ .visa{
+    background-color: rgb(198, 174, 199);
+ }
+ .mastercard{
+    background-color: rgb(198, 174, 199);
+ }
+ .footerdiv2a p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+
+ }
+ .fb{
+    font-size: 20px;
+ }
+ .instagram{
+    font-size: 20px;
+ }
+ .footerdiv3{
+    font-family: 'Quicksand', sans-serif;
+
+
+ }
+
+
+
+
+
+
+
+
+
+ /* media query start here */
+
+ @media (max-width:1200px) and (min-width:760px){
+    .headerdiv2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    .headerdiv2a{
+        justify-content: center;
+    }
+    .headerdiv2 p{
+        margin-left: -17px;
+        margin-top: 20px;
+    }
+    .headerdiv2b{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    .section1{
+        height: auto;
+
+    }
+    .sec1maindiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sec1box2 img{
+        margin-left: 50px;
+    }
+    .sec1box1subdiv{
+        margin-top: 80px;
+    }
+    .sec1box2flexdiv{
+        justify-content: center;
+        transform: translateY(-37px);
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    /* section 1 end here */
+
+
+
+
+
+
+    .sec2maindiv{
+        display: flex;
+         flex-wrap: wrap;
+         text-align: center;
+         row-gap: 30px;
+
+
+    }
+    .sec2para{
+        text-align: center;
+    }
+    .sec2amaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 30px;
+        margin-top: 30px;
+    }
+
+
+
+    /* section 2 end here */
+    /* section 3 start here */
+
+    .sec3maindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 160px;
+    }
+    .sec3amaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 160px;
+
+    }
+
+    /* section3 end here */
+    /* section 4 start here */
+    .sec4maindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 50px;
+    }
+    .sec4box1b{
+       transform: translateX(26px);
+    }
+    .sec4box1a{
+        transform: translateX(-13px);
+    }
+
+    /* section 4 end here */
+    /* footer start here */
+
+
+    .footermaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 70px;
+    }
+ }
+
+
+
+
+
+
+ /* first breakpoint end here */
+ /* second breakpoint end here */
+ @media (max-width:760px) and (min-width:425px){
+    .headerdiv2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    .headerdiv2a{
+        justify-content: center;
+    }
+    .headerdiv2 p{
+        margin-left: -17px;
+        margin-top: 20px;
+    }
+    .headerdiv2b{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    .section1{
+        height: auto;
+
+    }
+    .sec1maindiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sec1box2 img{
+        margin-left: 50px;
+    }
+    .sec1box1subdiv{
+        margin-top: 80px;
+    }
+    .sec1box2flexdiv{
+        justify-content: center;
+        transform: translateY(-37px);
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    /* section 1 end here */
+
+
+
+
+
+
+    .sec2maindiv{
+        display: flex;
+         flex-wrap: wrap;
+         text-align: center;
+         row-gap: 30px;
+
+
+    }
+    .sec2para{
+        text-align: center;
+    }
+    .sec2amaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 30px;
+        margin-top: 30px;
+    }
+
+
+
+    /* section 2 end here */
+    /* section 3 start here */
+
+    .sec3maindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 160px;
+    }
+    .sec3amaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 160px;
+
+    }
+
+    /* section3 end here */
+    /* section 4 start here */
+    .sec4maindiv{
+        display: flex;
+        flex-wrap: wrap;
+        /* text-align: center; */
+        row-gap: 50px;
+        justify-content: start;
+    }
+    
+    /* section 4 end here */
+    /* footer start here */
+
+
+    .footermaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        row-gap: 70px;
+    }
+    .footermaindiv2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 25px;
+
+    }
+
+
+ }
+
+ /* second breakpoint end here */
+ /* third breakpoint start here */
+
+
+ @media (max-width:425px){
+    .headerdiv1{
+        font-size: 12px;
+    }
+
+    .headerdiv2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+       
+    }
+    .sec2para{
+        margin: auto;
+    }
+    .headerdiv2a{
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+    .headerdiv2 p{
+        margin-left: -17px;
+        margin-top: 20px;
+    }
+    .headerdiv2b{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    .section1{
+        height: auto;
+
+    }
+    .sec1maindiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sec1box2 img{
+        margin-left: 50px;
+    }
+    .sec1box1subdiv{
+        margin-top: 80px;
+    }
+    .sec1box2flexdiv{
+        justify-content: center;
+        transform: translateY(-37px);
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    /* section 1 end here */
+
+
+
+
+
+
+    .sec2maindiv{
+        display: flex;
+         flex-wrap: wrap;
+         text-align: center;
+         row-gap: 30px;
+
+
+    }
+    .sec2para{
+        text-align: center;
+    }
+    .sec2amaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 30px;
+        margin-top: 30px;
+    }
+
+
+
+    /* section 2 end here */
+    /* section 3 start here */
+
+    .sec3maindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 160px;
+    }
+    .sec3amaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        row-gap: 160px;
+
+    }
+
+    /* section3 end here */
+    /* section 4 start here */
+    .sec4maindiv{
+        display: flex;
+        flex-wrap: wrap;
+        /* text-align: center; */
+        row-gap: 50px;
+        justify-content: start;
+    }
+    
+    /* section 4 end here */
+    /* footer start here */
+
+
+    .footermaindiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        row-gap: 70px;
+    }
+    .footermaindiv2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 25px;
+
+    }
+
+
+ }
+ 
